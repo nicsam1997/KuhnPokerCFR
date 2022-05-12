@@ -134,7 +134,7 @@ public class SimpleCFR {
             for(int i = 0; i<strategy.length;i++) {
                 if(i!=0) System.out.println();
                 for(int j = 0; j<strategy[i].length;j++) {
-                    System.out.print(strategy[i][j]);
+                    System.out.print(" " + strategy[i][j] + " ");
                 }
             }
         }
@@ -198,9 +198,4 @@ public class SimpleCFR {
             }
         }
     }
-
-
-
-
-
 }
